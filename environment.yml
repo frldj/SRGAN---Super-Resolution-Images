@@ -1,0 +1,17 @@
+name: srganenv
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - Pillow
+  - tqdm
+  - matplotlib
+  - pip:
+      - scikit-image
+      - numpy
+      - pandas
